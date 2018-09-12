@@ -7,10 +7,10 @@ public class test {
 		
 		
 		
-//		Solution s=new  Solution();
-//		int nums[]={2, 7, 11, 15};
-//		int ans[]=s.twoSum(nums, 9);
-//		System.out.println(ans[0]+" "+ans[1]);
+		Solution s=new  Solution();
+		int nums[]={2, 7, 11, 15};
+		int ans[]=s.twoSum(nums, 9);
+		System.out.println(ans[0]+" "+ans[1]);
 		
 //		Solution2 s2=new  Solution2();
 //		ListNode l1=new ListNode(2);
