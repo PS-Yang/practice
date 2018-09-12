@@ -4,7 +4,20 @@ public class test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+		Solution14 s14=new Solution14();
+		String strs[]={"flower","flow","flight"};
+		String strs2[]={"dog","racecar","car"};
+//		String strs3[]={""};
+		String strs3[]={"aca","cba"};
+		System.out.println(s14.longestCommonPrefix(strs));
+//		System.out.println(s14.longestCommonPrefix(strs2));
+		System.out.println(s14.longestCommonPrefix(strs3));
+//		Solution13 s13=new Solution13();
+//		System.out.println(s13.romanToInt("III"));
+//		System.out.println(s13.romanToInt("IV"));
+//		System.out.println(s13.romanToInt("IX"));
+//		System.out.println(s13.romanToInt("LVIII"));
+//		System.out.println(s13.romanToInt("MCMXCIV"));
 		
 //		Solution11 s11=new Solution11();
 //		int height[]={1,8,6,2,5,4,8,3,7};
