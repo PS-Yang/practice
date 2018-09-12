@@ -4,10 +4,15 @@ public class test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Solution412 s412=new Solution412();
-		System.out.println(s412.fizzBuzz(15));
 		
 		
+//		Solution11 s11=new Solution11();
+//		int height[]={1,8,6,2,5,4,8,3,7};
+//		System.out.println(s11.maxArea(height));
+		
+//		Solution412 s412=new Solution412();
+//		System.out.println(s412.fizzBuzz(15));
+				
 //		Solution s=new  Solution();
 //		int nums[]={2, 7, 11, 15};
 //		int ans[]=s.twoSum(nums, 9);
