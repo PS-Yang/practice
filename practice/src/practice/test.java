@@ -4,13 +4,47 @@ public class test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Solution19 s19=new Solution19();
-		ListNode l=new ListNode(1);
-		l.next=new ListNode(2);
-		l.next.next=new ListNode(3);
-		l.next.next.next=new ListNode(4);
-		l.next.next.next.next=new ListNode(5);
-		System.out.println(s19.removeNthFromEnd(l, 2).val);
+		Solution23 s23=new Solution23();
+		ListNode l1=new ListNode(1);
+		l1.next=new ListNode(4);
+		l1.next.next=new ListNode(5);
+		ListNode l2=new ListNode(1);
+		l2.next=new ListNode(3);
+		l2.next.next=new ListNode(4);
+		ListNode l3=new ListNode(2);
+		l3.next=new ListNode(6);
+		ListNode[] lists=new ListNode[3];
+		lists[0]=l1;lists[1]=l2;lists[2]=l3;
+		System.out.println(s23.mergeKLists(lists));
+		
+//		Solution22 s22=new Solution22();
+//		System.out.println(s22.generateParenthesis(3));
+		
+//		Solution21 s21=new Solution21();
+//		ListNode l1=new ListNode(1);
+//		l1.next=new ListNode(2);
+//		l1.next.next=new ListNode(4);
+//		ListNode l2=new ListNode(1);
+//		l2.next=new ListNode(3);
+//		l2.next.next=new ListNode(4);
+//		System.out.println(s21.mergeTwoLists(l1, l2));
+		
+//		Solution20 s20=new Solution20();
+//		System.out.println(s20.isValid("()")); //T
+//		System.out.println(s20.isValid("()[]{}")); //T
+//		System.out.println(s20.isValid("(]"));   //F
+//		System.out.println(s20.isValid("([)]")); //F
+//		System.out.println(s20.isValid("{[]}")); //T
+//		System.out.println(s20.isValid("]")); //F
+//		System.out.println(s20.isValid("[")); //F
+		
+//		Solution19 s19=new Solution19();
+//		ListNode l=new ListNode(1);
+//		l.next=new ListNode(2);
+//		l.next.next=new ListNode(3);
+//		l.next.next.next=new ListNode(4);
+//		l.next.next.next.next=new ListNode(5);
+//		System.out.println(s19.removeNthFromEnd(l, 2).val);
 		
 //		Solution17 s17=new Solution17();
 //		System.out.println(s17.letterCombinations("23"));
