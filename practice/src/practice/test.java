@@ -4,18 +4,29 @@ public class test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Solution23 s23=new Solution23();
-		ListNode l1=new ListNode(1);
-		l1.next=new ListNode(4);
-		l1.next.next=new ListNode(5);
-		ListNode l2=new ListNode(1);
-		l2.next=new ListNode(3);
-		l2.next.next=new ListNode(4);
-		ListNode l3=new ListNode(2);
-		l3.next=new ListNode(6);
-		ListNode[] lists=new ListNode[3];
-		lists[0]=l1;lists[1]=l2;lists[2]=l3;
-		System.out.println(s23.mergeKLists(lists));
+		Solution28 s28=new Solution28();
+		System.out.println(s28.strStr("hello", "ll"));//2
+		System.out.println(s28.strStr("aaaaa", "bba"));//-1
+		System.out.println(s28.strStr("mississippi", "issip"));//4
+		
+//		Solution26 s26=new Solution26();
+//		int nums[]={1,1,2};
+//		System.out.println(s26.removeDuplicates(nums));
+//		int nums2[]={0,0,1,1,1,2,2,3,3,4};
+//		System.out.println(s26.removeDuplicates(nums2));
+		
+//		Solution23 s23=new Solution23();
+//		ListNode l1=new ListNode(1);
+//		l1.next=new ListNode(4);
+//		l1.next.next=new ListNode(5);
+//		ListNode l2=new ListNode(1);
+//		l2.next=new ListNode(3);
+//		l2.next.next=new ListNode(4);
+//		ListNode l3=new ListNode(2);
+//		l3.next=new ListNode(6);
+//		ListNode[] lists=new ListNode[3];
+//		lists[0]=l1;lists[1]=l2;lists[2]=l3;
+//		System.out.println(s23.mergeKLists(lists));
 		
 //		Solution22 s22=new Solution22();
 //		System.out.println(s22.generateParenthesis(3));
