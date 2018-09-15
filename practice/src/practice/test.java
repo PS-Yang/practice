@@ -4,10 +4,12 @@ public class test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Solution28 s28=new Solution28();
-		System.out.println(s28.strStr("hello", "ll"));//2
-		System.out.println(s28.strStr("aaaaa", "bba"));//-1
-		System.out.println(s28.strStr("mississippi", "issip"));//4
+		Solution29 s29=new Solution29();
+		System.out.println(s29.divide(10, 3));//3
+		System.out.println(s29.divide(7, -3));//-2
+		System.out.println(s29.divide(-2147483648, -1)); //2147483647
+		System.out.println(s29.divide(-2147483648, 1)); //-2147483648
+//		System.out.println(7/(-3)+" "+10/3+" "+1/1+" "+(-1)/1+" "+1/(-1)+" "+(-1)/(-1));
 		
 //		Solution26 s26=new Solution26();
 //		int nums[]={1,1,2};
