@@ -4,10 +4,18 @@ public class test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Solution33 s33=new Solution33();
-		int nums[]={4,5,6,7,0,1,2};
-		System.out.println(s33.search(nums, 0));
-		System.out.println(s33.search(nums, 3));
+		Solution34 s34=new Solution34();
+		int nums[]={5,7,7,8,8,10};
+		int nums2[]={1,2,3,4,5,6,7,8,9,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12};
+		int nums3[]={1,4};
+		System.out.println(s34.searchRange(nums, 6)[0]+" "+s34.searchRange(nums, 6)[1]);
+		System.out.println(s34.searchRange(nums2, 12)[0]+" "+s34.searchRange(nums2, 12)[1]);
+		
+//		Solution33 s33=new Solution33();
+//		int nums[]={4,5,6,7,0,1,2};
+//		System.out.println(s33.search(nums, 0));
+//		System.out.println(s33.search(nums, 3));
+		
 //		Solution561 s561=new Solution561();
 ////		int nums[]={1,4,3,2};
 //		int nums[]={1,4,3,2,2,2,2,2};
