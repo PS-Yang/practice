@@ -4,25 +4,13 @@ public class test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-//		Solution904 s904=new Solution904();
-//		int tree[]={0,1,2,2};
-//		int treeB[]={0,0};
-//		System.out.println(s904.totalFruit(tree));//3
-//		System.out.println(s904.totalFruit(treeB));//3
-		Solution905 s905=new Solution905();
-		int A[]={3,1,2,4};
-		System.out.println(s905.sortArrayByParity(A));//3
-		
-		
-		
-//		Solution29 s29=new Solution29();
-//		System.out.println(s29.divide(10, 3));//3
-//		System.out.println(s29.divide(7, -3));//-2
-//		System.out.println(s29.divide(-1, -1)); //2147483647
-//		System.out.println(s29.divide(-2147483648, -1)); //2147483647
-//		System.out.println(s29.divide(-2147483648, 1)); //-2147483648
-//		System.out.println(7/(-3)+" "+10/3+" "+1/1+" "+(-1)/1+" "+1/(-1)+" "+(-1)/(-1));
+			
+		Solution29 s29=new Solution29();
+		System.out.println(s29.divide(10, 3));//3
+		System.out.println(s29.divide(7, -3));//-2
+		System.out.println(s29.divide(-1, -1)); //1
+		System.out.println(s29.divide(-2147483648, -1)); //2147483647
+		System.out.println(s29.divide(-2147483648, 1)); //-2147483648
 		
 //		Solution26 s26=new Solution26();
 //		int nums[]={1,1,2};
