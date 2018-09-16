@@ -24,13 +24,13 @@ public class Solution29 {
 	private long ldivide(long ldividend, long ldivisor) {
 		if(ldividend<ldivisor)
 			return 0;
-		long temp=1;
+		long count=1;
 		long sum=ldivisor;
 		while((sum+sum)<ldividend)
 		{
 			sum=sum+sum;
-			temp=temp+temp;
+			count=count+count;
 		}
-		return temp+ldivide(ldividend-sum,ldivisor);
+		return count+ldivide(ldividend-sum,ldivisor);
 	}
 }
