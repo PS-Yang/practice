@@ -4,13 +4,21 @@ public class test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-			
-		Solution29 s29=new Solution29();
-		System.out.println(s29.divide(10, 3));//3
-		System.out.println(s29.divide(7, -3));//-2
-		System.out.println(s29.divide(-1, -1)); //1
-		System.out.println(s29.divide(-2147483648, -1)); //2147483647
-		System.out.println(s29.divide(-2147483648, 1)); //-2147483648
+		Solution33 s33=new Solution33();
+		int nums[]={4,5,6,7,0,1,2};
+		System.out.println(s33.search(nums, 0));
+		System.out.println(s33.search(nums, 3));
+//		Solution561 s561=new Solution561();
+////		int nums[]={1,4,3,2};
+//		int nums[]={1,4,3,2,2,2,2,2};
+//		System.out.println(s561.arrayPairSum(nums));
+		
+//		Solution29 s29=new Solution29();
+//		System.out.println(s29.divide(10, 3));//3
+//		System.out.println(s29.divide(7, -3));//-2
+//		System.out.println(s29.divide(-1, -1)); //1
+//		System.out.println(s29.divide(-2147483648, -1)); //2147483647
+//		System.out.println(s29.divide(-2147483648, 1)); //-2147483648
 		
 //		Solution26 s26=new Solution26();
 //		int nums[]={1,1,2};
