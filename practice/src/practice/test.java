@@ -5,6 +5,29 @@ public class test {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+//		SolutionC2_2 c=new SolutionC2_2();
+//		System.out.println(c.solution(new int []{1,1,5}));
+//		System.out.println(c.solution(new int []{}));
+//		System.out.println(c.solution(new int []{}));
+		
+//		SolutionC2_1 c=new SolutionC2_1();
+//		System.out.println(c.solution(new int []{3, 8, 9, 7, 6}, 3));
+//		System.out.println(c.solution(new int []{}, 10));
+//		System.out.println(c.solution(new int []{1, 2, 3, 4}, 10));
+		
+//		SolutionC1 sC1=new SolutionC1();		
+//		System.out.println(sC1.solution(15));  //0
+//		System.out.println(sC1.solution(32)); //0
+//		System.out.println(sC1.solution(1041)); //5
+		
+//		Solution41 s41=new Solution41();
+//		System.out.println(s41.firstMissingPositive(new int[]{1,2,0}));
+//		System.out.println(s41.firstMissingPositive(new int[]{1}));
+//		System.out.println(s41.firstMissingPositive(new int[]{3,4,-1,1}));
+		
+//		Solution38 s38=new Solution38();
+//		System.out.println(s38.countAndSay(2));
+		
 //		Solution36 s36=new Solution36();
 //		char [][] board={{'5','3','.','.','7','.','.','.','.'},
 //                {'6','.','.','1','9','5','.','.','.'},
