@@ -4,12 +4,25 @@ public class test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Solution34 s34=new Solution34();
-		int nums[]={5,7,7,8,8,10};
-		int nums2[]={1,2,3,4,5,6,7,8,9,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12};
-		int nums3[]={1,4};
-		System.out.println(s34.searchRange(nums, 6)[0]+" "+s34.searchRange(nums, 6)[1]);
-		System.out.println(s34.searchRange(nums2, 12)[0]+" "+s34.searchRange(nums2, 12)[1]);
+		
+//		Solution36 s36=new Solution36();
+//		char [][] board={{'5','3','.','.','7','.','.','.','.'},
+//                {'6','.','.','1','9','5','.','.','.'},
+//                {'.','9','8','.','.','.','.','6','.'},
+//                {'8','.','.','.','6','.','.','.','3'},
+//                {'4','.','.','8','.','3','.','.','1'},
+//                {'7','.','.','.','2','.','.','.','6'},
+//                {'.','6','.','.','.','.','2','8','.'},
+//                {'.','.','.','4','1','9','.','.','5'},
+//                {'.','.','.','.','8','.','.','7','9'}};
+//		System.out.println(s36.isValidSudoku(board));
+		
+//		Solution34 s34=new Solution34();
+//		int nums[]={5,7,7,8,8,10};
+//		int nums2[]={1,2,3,4,5,6,7,8,9,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12};
+//		int nums3[]={1,4};
+//		System.out.println(s34.searchRange(nums, 6)[0]+" "+s34.searchRange(nums, 6)[1]);
+//		System.out.println(s34.searchRange(nums2, 12)[0]+" "+s34.searchRange(nums2, 12)[1]);
 		
 //		Solution33 s33=new Solution33();
 //		int nums[]={4,5,6,7,0,1,2};
