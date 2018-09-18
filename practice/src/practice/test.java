@@ -5,6 +5,11 @@ public class test {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		
+//		Solution53 s53=new Solution53();
+//		System.out.println(s53.maxSubArray(new int []{-2,1,-3,4,-1,2,1,-5,4}));
+//		System.out.println(s53.maxSubArray(new int []{-1,-2}));
+		
 //		SolutionC2_2 c=new SolutionC2_2();
 //		System.out.println(c.solution(new int []{1,1,5}));
 //		System.out.println(c.solution(new int []{}));
