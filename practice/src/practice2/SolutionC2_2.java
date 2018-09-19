@@ -1,4 +1,4 @@
-package practice;
+package practice2;
 
 import java.util.HashSet;
 import java.util.Iterator;

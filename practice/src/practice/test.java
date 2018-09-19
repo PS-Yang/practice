@@ -1,30 +1,34 @@
 package practice;
 
+import practice2.SolutionC17_1;
+
 public class test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+
+//		Solution10 s10=new Solution10();
+//		System.out.println(s10.isMatch("aa","a")); //F
+//		System.out.println(s10.isMatch("abcde","a...e")); //T
+//		System.out.println(s10.isMatch("abcde","a.x.e"));//F
+//		System.out.println(s10.isMatch("aa","a*")); //T 
+//		System.out.println(s10.isMatch("ab",".*")); //T
+//		System.out.println(s10.isMatch("aab","c*a*b"));//T 
+//		System.out.println(s10.isMatch("aab","aa*b")); //T 
+//		System.out.println(s10.isMatch("aaa","ab*a"));//F
+//		System.out.println(s10.isMatch("mississippi","mis*is*p*."));//F
+//		System.out.println(s10.isMatch("mississippi","mis*is*ip*."));//T <-
+//		System.out.println(s10.isMatch("abcd","d*"));//F
+//		System.out.println(s10.isMatch("ab",".*c"));//F <-
+//		System.out.println(s10.isMatch("bb",".bab"));//F
+//		System.out.println(s10.isMatch("acac","a.ac"));//T
+//		System.out.println(s10.isMatch("aaa","ab*a*c*a"));//T
 		
 //		Solution53 s53=new Solution53();
 //		System.out.println(s53.maxSubArray(new int []{-2,1,-3,4,-1,2,1,-5,4}));
 //		System.out.println(s53.maxSubArray(new int []{-1,-2}));
 		
-//		SolutionC2_2 c=new SolutionC2_2();
-//		System.out.println(c.solution(new int []{1,1,5}));
-//		System.out.println(c.solution(new int []{}));
-//		System.out.println(c.solution(new int []{}));
-		
-//		SolutionC2_1 c=new SolutionC2_1();
-//		System.out.println(c.solution(new int []{3, 8, 9, 7, 6}, 3));
-//		System.out.println(c.solution(new int []{}, 10));
-//		System.out.println(c.solution(new int []{1, 2, 3, 4}, 10));
-		
-//		SolutionC1 sC1=new SolutionC1();		
-//		System.out.println(sC1.solution(15));  //0
-//		System.out.println(sC1.solution(32)); //0
-//		System.out.println(sC1.solution(1041)); //5
-		
+
 //		Solution41 s41=new Solution41();
 //		System.out.println(s41.firstMissingPositive(new int[]{1,2,0}));
 //		System.out.println(s41.firstMissingPositive(new int[]{1}));
@@ -120,11 +124,7 @@ public class test {
 //		Solution17 s17=new Solution17();
 //		System.out.println(s17.letterCombinations("23"));
 		
-//		SolutionT1 T1=new SolutionT1();
-//		int A[] = {1, 3, 6, 4, 1, 2};
-//		int A[] = {1, 2, 3};
-//		int A[] = {-1,-3};
-//		System.out.println(T1.solution(A));
+
 		
 //		Solution15 s15=new Solution15();
 //		int[] nums={-1, 0, 1, 2, -1, -4};

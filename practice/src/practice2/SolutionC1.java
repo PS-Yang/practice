@@ -1,4 +1,4 @@
-package practice;
+package practice2;
 
 public class SolutionC1 {
 	public int solution(int N) {
