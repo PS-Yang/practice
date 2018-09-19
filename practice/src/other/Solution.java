@@ -2,9 +2,12 @@ package other;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.Map.Entry;
+import java.util.Set;
 
 public class Solution {
 	public int solution(int[] T) {
@@ -43,9 +46,7 @@ public class Solution {
 			else if(str2[0].equals("Sun"))
 				number=7;;
 			if(map.containsKey(number))
-			{
 				map.get(number).add(str2[1]);
-			}
 			else
 			{
 				ArrayList<String> a=new ArrayList<>();
@@ -54,18 +55,21 @@ public class Solution {
 			}
 		}
 //		System.out.println(map);
-		int max=0;
-		int remain=0; //前一天剩下的
-		for(int i=1;i<map.size()+1;i++)
+		int max=0;//最大睡眠時間
+		int remain=0; //前一天剩下的(一周重設一次)
+		Set<Integer> keyset=map.keySet();
+		Iterator<Integer> it=keyset.iterator();
+		while(it.hasNext())
 		{
-			ArrayList<String> A=map.get(i);
-			Iterator iterator2 = A.iterator();
-			int lastend=0;//前一個結束時間
+			int date=it.next();
+			ArrayList<String> A=map.get(date);
+			Iterator<String> iterator2 = A.iterator();
+			int lastend=0;//前一個結束時間設為0 (每天的開始)
 			while(iterator2.hasNext()) 
 			{
-		        String [] temp=((String) iterator2.next()).split("-");
-		        String [] times=temp[0].split(":");
-		        String [] timee=temp[1].split(":");
+		        String [] time=iterator2.next().split("-");
+		        String [] times=time[0].split(":");
+		        String [] timee=time[1].split(":");
 				int begin=Integer.parseInt(times[0])*60+Integer.parseInt(times[1]);
 				int end=Integer.parseInt(timee[0])*60+Integer.parseInt(timee[1]);
 				if(remain+begin-lastend>max)
@@ -108,26 +112,28 @@ public class Solution {
 				map.put(number, a);
 			}
 		}
-//		System.out.println(map);
+		System.out.println(map);
 		int score=100/map.size();
 		
-		for(int i=1;i<=map.size();i++)
-		{
-			ArrayList<String> A=map.get(i);
-			Iterator iterator2 = A.iterator();
-			int flag=0;
+		Collection<Integer> collection = map.keySet();
+        Iterator<Integer> iterator = collection.iterator();
+        while(iterator.hasNext()) 
+        {
+            int key=iterator.next();
+            ArrayList<String> A=map.get(key);
+			Iterator<String> iterator2 = A.iterator();
+			boolean flag=true;
 			while(iterator2.hasNext()) 
 			{
 		         if(!iterator2.next().equals("OK"))
 		         {
-		        	 flag=1;
+		        	 flag=false;
 		        	 break;
 		         }
 		    }
-			if(flag==0)
+			if(flag)
 				total=total+score;
-		}
-
+        }
 		return total;
     }
 }
