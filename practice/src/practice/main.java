@@ -4,7 +4,28 @@ public class main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		Solution70 s=new Solution70();
+		System.out.println(s.climbStairs(44));
+		
+//		Solution70 s=new Solution70();
+//		System.out.println(s.climbStairs(44));
+		
+//		Solution64 s=new Solution64();
+//		int A[][]={{1,3,1},{1,5,1},{4,2,1}};
+//		System.out.println(s.minPathSum(A));
+//		System.out.println(s.minPathSum(new int[][]{{0},{0}}));
+		
+//		Solution63 s=new Solution63();
+//		int A[][]={{0,0,0},{0,1,0},{0,0,0}};
+//		System.out.println(s.uniquePathsWithObstacles(A));
+//		System.out.println(s.uniquePathsWithObstacles(new int[][]{{0},{0}}));
+		
+//		Solution62 s=new Solution62();
+//		System.out.println(s.uniquePaths(3, 2));
+//		System.out.println(s.uniquePaths(7, 3));
+//		System.out.println(s.uniquePaths(36, 7));
+//		System.out.println(s.uniquePaths(13, 23));
+		
 //		Solution10 s10=new Solution10();
 //		System.out.println(s10.isMatch("aa","a")); //F
 //		System.out.println(s10.isMatch("abcde","a...e")); //T
