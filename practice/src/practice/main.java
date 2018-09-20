@@ -1,8 +1,6 @@
 package practice;
 
-import practice2.SolutionC17_1;
-
-public class test {
+public class main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -23,6 +21,7 @@ public class test {
 //		System.out.println(s10.isMatch("bb",".bab"));//F
 //		System.out.println(s10.isMatch("acac","a.ac"));//T
 //		System.out.println(s10.isMatch("aaa","ab*a*c*a"));//T
+//		System.out.println(s10.isMatch("",".*")); //T
 		
 //		Solution53 s53=new Solution53();
 //		System.out.println(s53.maxSubArray(new int []{-2,1,-3,4,-1,2,1,-5,4}));
