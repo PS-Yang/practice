@@ -4,7 +4,11 @@ public class main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+		Solution_GrandChallenge sc=new Solution_GrandChallenge();
+		System.out.println(sc.solution("cabbacc"));//4
+		System.out.println(sc.solution("abababa"));//6
+		System.out.println(sc.solution("aaaaaaa"));//0
+		System.out.println(sc.solution("aabbab"));//6
 		
 //		SolutionC17_1 sc=new SolutionC17_1();
 ////		System.out.println(sc.solution(new int []{1,-2,0,9,-1,-2})); 
