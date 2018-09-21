@@ -4,9 +4,15 @@ public class main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Solution70 s=new Solution70();
-		System.out.println(s.climbStairs(44));
-		
+		Solution32 s=new Solution32();
+		System.out.println(s.longestValidParentheses("(()"));  //2
+		System.out.println(s.longestValidParentheses(")()())"));//4 X
+		System.out.println(s.longestValidParentheses("(()())"));//6
+		System.out.println(s.longestValidParentheses(")("));//0
+		System.out.println(s.longestValidParentheses("()(()"));//2X
+		System.out.println(s.longestValidParentheses(")()())"));//4X
+		System.out.println(s.longestValidParentheses("()(())"));//6
+		System.out.println(s.longestValidParentheses(")(((((()())()()))()(()))("));//22
 //		Solution70 s=new Solution70();
 //		System.out.println(s.climbStairs(44));
 		
