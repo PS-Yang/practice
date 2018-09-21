@@ -4,15 +4,46 @@ public class main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Solution32 s=new Solution32();
-		System.out.println(s.longestValidParentheses("(()"));  //2
-		System.out.println(s.longestValidParentheses(")()())"));//4 X
-		System.out.println(s.longestValidParentheses("(()())"));//6
-		System.out.println(s.longestValidParentheses(")("));//0
-		System.out.println(s.longestValidParentheses("()(()"));//2X
-		System.out.println(s.longestValidParentheses(")()())"));//4X
-		System.out.println(s.longestValidParentheses("()(())"));//6
-		System.out.println(s.longestValidParentheses(")(((((()())()()))()(()))("));//22
+//		Solution72 s=new Solution72();
+//		System.out.println(s.minDistance("horse", "ros"));
+//		System.out.println(s.minDistance("intention", "execution"));
+		
+//		Solution198 s=new Solution198();
+//		System.out.println(s.rob(new int []{1,2,3,1}));
+//		System.out.println(s.rob(new int []{2,7,9,3,1}));
+//		System.out.println(s.rob(new int []{7,1,5,3,6,4}));
+		
+//		Solution121 s=new Solution121();
+//		System.out.println(s.maxProfit(new int []{7,1,5,3,6,4}));
+//		System.out.println(s.maxProfit(new int []{7,6,4,3,1}));
+		
+//		Solution30 s=new Solution30();
+//		System.out.println(s.findSubstring("barfoothefoobarman", new String []{"foo","bar"}));
+//		System.out.println(s.findSubstring("wordgoodgoodgoodbestword", new String []{"word","good","best","good"}));
+//		System.out.println(s.findSubstring("", new String []{}));
+//		System.out.println(s.findSubstring("aaaaaaaa", new String []{"aa","aa","aa"}));
+
+//		Solution44 s=new Solution44();
+//		System.out.println(s.isMatch("aa", "a"));  //F
+//		System.out.println(s.isMatch("aa", "*"));  //T
+//		System.out.println(s.isMatch("cb", "?a")); //F
+//		System.out.println(s.isMatch("adceb", "a*b"));//T  
+//		System.out.println(s.isMatch("acdcb", "a*c?b"));//F  
+//		System.out.println(s.isMatch("adceb", "*a*b"));//T  
+//		System.out.println(s.isMatch("aab", "c*a*b"));//F  
+//		System.out.println(s.isMatch("aa", "a*"));  //T
+//		System.out.println(s.isMatch("", ""));  //T
+		
+//		Solution32 s=new Solution32();
+//		System.out.println(s.longestValidParentheses("(()"));  //2
+//		System.out.println(s.longestValidParentheses(")()())"));//4 
+//		System.out.println(s.longestValidParentheses("(()())"));//6
+//		System.out.println(s.longestValidParentheses(")("));//0
+//		System.out.println(s.longestValidParentheses("()(()"));//2
+//		System.out.println(s.longestValidParentheses(")()())"));//4
+//		System.out.println(s.longestValidParentheses("()(())"));//6
+//		System.out.println(s.longestValidParentheses(")(((((()())()()))()(()))("));//22
+		
 //		Solution70 s=new Solution70();
 //		System.out.println(s.climbStairs(44));
 		
