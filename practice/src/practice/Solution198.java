@@ -8,7 +8,7 @@ public class Solution198 {
 		if(nums.length==1)
 			return nums[0];
 		int previous=nums[0];
-		int max=Math.max(previous, nums[1]);;
+		int max=Math.max(previous, nums[1]);
 		for(int i=2;i<nums.length;i++)
 		{
 			int temp=max;

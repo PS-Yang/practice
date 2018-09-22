@@ -8,6 +8,11 @@ public class main {
 //		System.out.println(s.minDistance("horse", "ros"));
 //		System.out.println(s.minDistance("intention", "execution"));
 		
+		Solution213 s=new Solution213();
+		System.out.println(s.rob(new int []{2,3,2}));
+		System.out.println(s.rob(new int []{1,2,3,1}));
+		System.out.println(s.rob(new int []{7,1,5,3,6,4}));
+		System.out.println(s.rob(new int []{2,7,9,3,1}));
 //		Solution198 s=new Solution198();
 //		System.out.println(s.rob(new int []{1,2,3,1}));
 //		System.out.println(s.rob(new int []{2,7,9,3,1}));
