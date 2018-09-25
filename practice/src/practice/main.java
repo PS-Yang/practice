@@ -11,15 +11,23 @@ public class main {
 //		Solution42 s=new Solution42();
 //		System.out.println(s.trap(new int[]{0,1,0,2,1,0,1,3,2,1,2,1}));
 		
-		Solution910 s=new Solution910();
-		System.out.println(s.smallestRangeII(new int[]{1}, 0));//0
-		System.out.println(s.smallestRangeII(new int[]{0,10}, 2));//6
-		System.out.println(s.smallestRangeII(new int[]{1,3,6}, 3));//3
-		System.out.println(s.smallestRangeII(new int[]{7,8,8}, 5));//1
-		System.out.println(s.smallestRangeII(new int[]{3,1,10}, 4));//2
-		System.out.println(s.smallestRangeII(new int[]{1,4,6,4}, 3));//3
-		System.out.println(s.smallestRangeII(new int[]{4,1,8,10}, 3));//3
-		System.out.println(s.smallestRangeII(new int[]{9,10,5,9}, 5));//5
+		int [][]board={{-1,-1,-1,-1,-1,-1}, {-1,-1,-1,-1,-1,-1}, {-1,-1,-1,-1,-1,-1}, {-1,35,-1,-1,13,-1}, {-1,-1,-1,-1,-1,-1}, {-1,15,-1,-1,-1,-1}};
+		int [][]board2={{1,1,-1},{1,1,1},{-1,1,1}};
+		int [][]b3={{-1,-1,-1,135,-1,-1,-1,-1,-1,185,-1,-1,-1,-1,105,-1},{-1,-1,92,-1,-1,-1,-1,-1,-1,201,-1,118,-1,-1,183,-1},{-1,-1,-1,-1,-1,-1,-1,-1,-1,179,-1,-1,-1,-1,-1,-1},{-1,248,-1,-1,-1,-1,-1,-1,-1,119,-1,-1,-1,-1,-1,192},{-1,-1,104,-1,-1,-1,-1,-1,-1,-1,165,-1,-1,206,104,-1},{145,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,229,-1},{-1,-1,75,140,-1,-1,-1,-1,-1,-1,-1,-1,43,-1,34,-1},{-1,-1,-1,-1,-1,-1,169,-1,-1,-1,-1,-1,-1,188,-1,-1},{-1,-1,-1,-1,-1,-1,92,-1,171,-1,-1,-1,-1,-1,-1,66},{-1,-1,-1,126,-1,-1,68,-1,-1,-1,-1,-1,-1,-1,-1,-1},{-1,109,-1,86,28,228,-1,-1,144,-1,-1,-1,-1,-1,-1,-1},{-1,-1,-1,-1,59,-1,-1,-1,-1,-1,51,-1,-1,-1,62,-1},{-1,71,-1,-1,-1,63,-1,-1,-1,-1,-1,-1,212,-1,-1,-1},{-1,-1,-1,-1,174,-1,59,-1,-1,-1,-1,-1,-1,133,-1,-1},{-1,-1,62,-1,5,-1,16,-1,-1,-1,-1,-1,-1,-1,-1,-1},{-1,-1,-1,59,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1}};
+		
+		Solution909 s=new Solution909();
+		System.out.println(s.snakesAndLadders(board));
+		System.out.println(s.snakesAndLadders(board2));
+		System.out.println(s.snakesAndLadders(b3));
+//		Solution910 s=new Solution910();
+//		System.out.println(s.smallestRangeII(new int[]{1}, 0));//0
+//		System.out.println(s.smallestRangeII(new int[]{0,10}, 2));//6
+//		System.out.println(s.smallestRangeII(new int[]{1,3,6}, 3));//3
+//		System.out.println(s.smallestRangeII(new int[]{7,8,8}, 5));//1
+//		System.out.println(s.smallestRangeII(new int[]{3,1,10}, 4));//2
+//		System.out.println(s.smallestRangeII(new int[]{1,4,6,4}, 3));//3
+//		System.out.println(s.smallestRangeII(new int[]{4,1,8,10}, 3));//3
+//		System.out.println(s.smallestRangeII(new int[]{9,10,5,9}, 5));//5
 		
 //		Solution213 s=new Solution213();
 //		System.out.println(s.rob(new int []{2,3,2}));
