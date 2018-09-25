@@ -8,11 +8,25 @@ public class main {
 //		System.out.println(s.minDistance("horse", "ros"));
 //		System.out.println(s.minDistance("intention", "execution"));
 		
-		Solution213 s=new Solution213();
-		System.out.println(s.rob(new int []{2,3,2}));
-		System.out.println(s.rob(new int []{1,2,3,1}));
-		System.out.println(s.rob(new int []{7,1,5,3,6,4}));
-		System.out.println(s.rob(new int []{2,7,9,3,1}));
+//		Solution42 s=new Solution42();
+//		System.out.println(s.trap(new int[]{0,1,0,2,1,0,1,3,2,1,2,1}));
+		
+		Solution910 s=new Solution910();
+		System.out.println(s.smallestRangeII(new int[]{1}, 0));//0
+		System.out.println(s.smallestRangeII(new int[]{0,10}, 2));//6
+		System.out.println(s.smallestRangeII(new int[]{1,3,6}, 3));//3
+		System.out.println(s.smallestRangeII(new int[]{7,8,8}, 5));//1
+		System.out.println(s.smallestRangeII(new int[]{3,1,10}, 4));//2
+		System.out.println(s.smallestRangeII(new int[]{1,4,6,4}, 3));//3
+		System.out.println(s.smallestRangeII(new int[]{4,1,8,10}, 3));//3
+		System.out.println(s.smallestRangeII(new int[]{9,10,5,9}, 5));//5
+		
+//		Solution213 s=new Solution213();
+//		System.out.println(s.rob(new int []{2,3,2}));
+//		System.out.println(s.rob(new int []{1,2,3,1}));
+//		System.out.println(s.rob(new int []{7,1,5,3,6,4}));
+//		System.out.println(s.rob(new int []{2,7,9,3,1}));
+		
 //		Solution198 s=new Solution198();
 //		System.out.println(s.rob(new int []{1,2,3,1}));
 //		System.out.println(s.rob(new int []{2,7,9,3,1}));
