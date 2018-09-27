@@ -8,6 +8,9 @@ public class main {
 //		System.out.println(s.minDistance("horse", "ros"));
 //		System.out.println(s.minDistance("intention", "execution"));
 		
+		Solution27 s=new Solution27();
+		System.out.println(s.removeElement(new int []{3,2,2,3}, 3));
+		System.out.println(s.removeElement(new int []{0,1,2,2,3,0,4,2}, 2));
 //		Solution42 s=new Solution42();
 //		System.out.println(s.trap(new int[]{0,1,0,2,1,0,1,3,2,1,2,1}));
 		
