@@ -10,17 +10,17 @@ import java.util.Set;
 //[(0,0),(0,2),(2,2),(2,0),(5,0),(5,2)]
 //find the smallest area of all rectangles
 public class interview {
-	
+	// 2. using hashmap time O(N*N)
 	public int smallarea(int num[][]){
 		int minarea=Integer.MAX_VALUE;
-		HashMap<Integer,ArrayList<Integer>> mapxy=new HashMap<>();
+		HashMap<Integer,HashSet<Integer>> mapxy=new HashMap<>();//建立對應得XY值..
 		for(int i=0;i<num.length;i++)
 		{
 			if(mapxy.containsKey(num[i][0]))
 				mapxy.get(num[i][0]).add(num[i][1]);
 			else
 			{
-				ArrayList<Integer> temp=new ArrayList<>();
+				HashSet<Integer> temp=new HashSet<>();
 				temp.add(num[i][1]);
 				mapxy.put(num[i][0], temp);
 			}
@@ -29,7 +29,7 @@ public class interview {
 		{
 			for(int j=i+1;j<num.length;j++)
 			{
-				if(num[i][0]!=num[j][0] && num[i][1]!=num[j][1])
+				if(num[i][0]!=num[j][0] && num[i][1]!=num[j][1]) //取長方型斜對角的兩個點
 				{
 					if(mapxy.get(num[i][0]).contains(num[j][1]) && mapxy.get(num[j][0]).contains(num[i][1]))
 					{
@@ -42,7 +42,7 @@ public class interview {
 		}
 		return minarea;
 	}
-//	//1. 暴力破解(N*N*N*N)
+	//1. Brute force time (N*N*N*N)
 //	public int smallarea(int num[][]){
 //		int minarea=Integer.MAX_VALUE;
 //		for(int i=0;i<num.length-3;i++)
