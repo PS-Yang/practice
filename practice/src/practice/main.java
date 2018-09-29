@@ -8,13 +8,23 @@ public class main {
 //		System.out.println(s.minDistance("horse", "ros"));
 //		System.out.println(s.minDistance("intention", "execution"));
 		
-		Solution12 s=new Solution12();
-		System.out.println(s.intToRoman(3));
-		System.out.println(s.intToRoman(4));
-		System.out.println(s.intToRoman(9));
-		System.out.println(s.intToRoman(58));
-		System.out.println(s.intToRoman(1994));
-		System.out.println(s.intToRoman(222));
+		Solution899 s=new Solution899();
+		System.out.println(s.orderlyQueue("cba", 1));
+		System.out.println(s.orderlyQueue("baaca", 3));
+		
+//		Solution898 s=new Solution898();
+//		System.out.println(s.subarrayBitwiseORs(new int []{1,1,2}));
+		
+//		Solution896 s=new Solution896();
+//		System.out.println(s.isMonotonic(new int[]{1,1,0}));
+		
+//		Solution12 s=new Solution12();
+//		System.out.println(s.intToRoman(3));
+//		System.out.println(s.intToRoman(4));
+//		System.out.println(s.intToRoman(9));
+//		System.out.println(s.intToRoman(58));
+//		System.out.println(s.intToRoman(1994));
+//		System.out.println(s.intToRoman(222));
 		
 //		Solution27 s=new Solution27();
 //		System.out.println(s.removeElement(new int []{3,2,2,3}, 3));
