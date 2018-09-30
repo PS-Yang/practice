@@ -7,13 +7,31 @@ public class main {
 //		Solution72 s=new Solution72();
 //		System.out.println(s.minDistance("horse", "ros"));
 //		System.out.println(s.minDistance("intention", "execution"));
-		
-		Solution899 s=new Solution899();
-		System.out.println(s.orderlyQueue("cba", 1));
-		System.out.println(s.orderlyQueue("baaca", 3));
-		
+//		Solution899 s=new Solution899();
+//		System.out.println(s.orderlyQueue("cba", 1));
+//		System.out.println(s.orderlyQueue("baaca", 3));
 //		Solution898 s=new Solution898();
 //		System.out.println(s.subarrayBitwiseORs(new int []{1,1,2}));
+		
+//		Solution913 s3=new Solution913();
+//
+//		Solution915 s5=new Solution915();
+////		System.out.println(s5.partitionDisjoint(new int[]{5,0,3,8,6}));
+//		System.out.println(s5.partitionDisjoint(new int[]{24,11,49,80,63,8,61,22,73,85}));
+////		System.out.println(s5.partitionDisjoint(new int[]{1,1,1,0,6,12}));
+////		System.out.println(s5.partitionDisjoint(new int[]{4,3,5,4,1,2,3,9,10}));
+////		System.out.println(s5.partitionDisjoint(new int[]{5,4,3,2,1,6}));
+////		System.out.println(s5.partitionDisjoint(new int[]{5,4,3,2,1}));
+////		System.out.println(s5.partitionDisjoint(new int[]{1,1}));
+//		System.out.println(s5.partitionDisjoint(new int[]{32,57,24,19,0,24,49,67,87,87}));
+//		System.out.println(s5.partitionDisjoint(new int[]{12,75,26,38,56,59,83,55,49,52,27,48,77,21,27,79,54,15,59,22,34,35,81,67,2,41,40,0,73,61,75,8,86,42,49,83,43,16,2,54,26,35,15,63,31,24,51,86,6,35,42,37,83,51,34,21,71,57,61,76,50,1,43,32,19,13,67,87,3,33,38,34,34,84,38,76,52,7,27,49,2,78,56,28,70,6,64,87,100,97,99,97,97,100,100,100,97,89,98,100}));
+		
+//		Solution914 s4=new Solution914();
+//		System.out.println(s4.hasGroupsSizeX(new int[]{1,2,3,4,4,3,2,1}));
+//		System.out.println(s4.hasGroupsSizeX(new int[]{1,1,1,2,2,2,3,3}));
+//		System.out.println(s4.hasGroupsSizeX(new int[]{1}));
+//		System.out.println(s4.hasGroupsSizeX(new int[]{1,1}));
+//		System.out.println(s4.hasGroupsSizeX(new int[]{1,1,2,2,2,2}));
 		
 //		Solution896 s=new Solution896();
 //		System.out.println(s.isMonotonic(new int[]{1,1,0}));
