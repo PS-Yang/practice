@@ -35,6 +35,8 @@ public class Solution18 {
 				while (j<nums.length-2 && nums[j] == nums[j+1])
 					 j++;
 			}
+			while (i<nums.length-3 && nums[i] == nums[i+1])
+				 i++;
 		}
 	 	return ans;
     }
