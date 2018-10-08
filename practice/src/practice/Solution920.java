@@ -11,9 +11,9 @@ public class Solution920 {
 		{
 			for(int j=1;j<=N;j++)
 			{
-				dp[i][j]=dp[i][j]+dp[i-1][j-1]*(N-j+1);
-				dp[i][j]=dp[i][j]+dp[i-1][j]*Math.max(j-K, 0);
-				dp[i][j]=dp[i][j]%max;
+				if(j>i)
+					break;
+				dp[i][j]=( dp[i-1][j-1]*(N-j+1) + dp[i-1][j]*Math.max(j-K, 0) )%max;
 			}
 		}
 		return  (int)dp[L][N];
