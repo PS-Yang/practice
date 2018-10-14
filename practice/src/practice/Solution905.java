@@ -22,7 +22,6 @@ public class Solution905 {
     }
 //	// 2.don't use new array
 //	public int[] sortArrayByParity(int[] A) {
-//        int ans[]=new int[A.length];
 //        int i=0;
 //        int j=A.length-1;
 //        while(i<j)
