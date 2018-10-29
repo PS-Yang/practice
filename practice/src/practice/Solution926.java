@@ -1,19 +1,17 @@
 package practice;
 
 public class Solution926 {
+	//sol2
 	public int minFlipsMonoIncr(String S) {
 		int f0=0;
 		int f1=0;
 		for(int i=0;i<S.length();i++)
 		{
 			if(S.charAt(i)=='1')
-			{
 				f0++;
-				f1 = Math.min(f0,f1);
-			}
 			if(S.charAt(i)=='0')
-				f1 = Math.min(f0,f1+1);
-				
+				f1++;
+			f1 = Math.min(f0,f1);
 		}
 		return f1;
     }
