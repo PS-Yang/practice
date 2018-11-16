@@ -22,5 +22,6 @@ public class Solution940 {
         if(dp[S.length()]<0)
         	dp[S.length()]=dp[S.length()]+MOD;
         return dp[S.length()];
+//        return dp[S.length()]<0 ? dp[S.length()]+MOD:dp[S.length()];
     }
 }

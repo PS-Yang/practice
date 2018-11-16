@@ -13,7 +13,7 @@ public class Solution401 {
 					ans.add(String.format("%d:%02d", h, m));
 		return ans;
 	}
-}
+
 	//sol 1
 //	private String hour[][]={{"0"},{"1","2","4","8"},{"3","5","6","9","10"},{"7","11"}};
 //	private String min[][]={{"00"},{"01","02","04","08","16","32"},

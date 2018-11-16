@@ -62,14 +62,14 @@ public class Solution939 {
 //		HashMap<Integer,HashSet<Integer>> mapxy=new HashMap<>();//建立對應得XY值..
 //		for(int i=0;i<points.length;i++)
 //		{
-			if(mapxy.containsKey(points[i][0]))
-				mapxy.get(points[i][0]).add(points[i][1]);
-			else
-			{
-				HashSet<Integer> temp=new HashSet<>();
-				temp.add(points[i][1]);
-				mapxy.put(points[i][0], temp);
-			}
+//			if(mapxy.containsKey(points[i][0]))
+//				mapxy.get(points[i][0]).add(points[i][1]);
+//			else
+//			{
+//				HashSet<Integer> temp=new HashSet<>();
+//				temp.add(points[i][1]);
+//				mapxy.put(points[i][0], temp);
+//			}
 //		}
 //		for(int i=0;i<points.length-1;i++)
 //		{
