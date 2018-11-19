@@ -1,8 +1,7 @@
 package practice;
 
 public class Solution482 {
-	
-	//sol 1
+//	//sol 1
 	public String licenseKeyFormatting(String S, int K) {
 		StringBuilder sb=new StringBuilder();
 		S=S.toUpperCase().replaceAll("-", "");
