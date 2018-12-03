@@ -56,6 +56,10 @@ public class Solution952 {
 //		for(int c:parent)
 //			System.out.print(c+" ");
 //		System.out.println();
+//		for(int i=0;i<20;i++)
+//			System.out.print(primetoidx[i]+" ");
+//		System.out.println();
+//		System.out.println("---------------------");
 		return max;
 	}
 	private int find(int parent[],int x){
