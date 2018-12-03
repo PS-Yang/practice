@@ -3,7 +3,7 @@ package practice;
 import java.util.Arrays;
 
 public class Solution581 {
-	//sol2
+	//sol2 O(N)
 	public int findUnsortedSubarray(int[] nums) {
 		int n=nums.length;
 		int begin=-1,end=-2;
