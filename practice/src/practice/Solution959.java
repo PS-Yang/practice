@@ -37,6 +37,7 @@ public class Solution959 {
 		return parent[x]; 
 	}
 	private void union(int x,int y){
+//		parent[find(x)]=find(y);
 		int parx=find(x);
 		int pary=find(y);
 		if(parx!=pary)
