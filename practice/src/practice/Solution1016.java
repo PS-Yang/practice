@@ -1,6 +1,6 @@
-	package practice;
+package practice;
 
-public class Solution1023 {
+public class Solution1016 {
 	
 	//sol2
 	public boolean queryString(String S, int N) {
