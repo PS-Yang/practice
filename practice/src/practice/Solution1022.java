@@ -1,37 +1,35 @@
 package practice;
 
 public class Solution1022 {
-	//sol2 暴力破解
-	public int smallestRepunitDivByK(int K) {
-		if(K==1)
-			return 1;
-		if(K%2==0 || K%5==0)
-			return -1;
-		int i=1,count=1;
-		while (count<=K) {
-			if(i%K==0)
-				return count;
-			i=(i*10+1)%K;
-			count++;
-		}
-		
-		return -1;
+	//sol2
+	private int MOD = 1000000007;
+	public int sumRootToLeaf(TreeNode root) {
+		return strRootToLeaf(root,0);
     }
-	//sol1 暴力破解
-//	public int smallestRepunitDivByK(int K) {
-//		if(K==1)
-//			return 1;
-//		if(K%2==0 || K%5==0)
-//			return -1;
-//		int i=1,count=1;
-//		while (count<1000000000) {
-//			if(i%K==0)
-//				return count;
-//			i=i*10+1;
-//			i=i%K;
-//			count++;
-//		}
-//		
-//		return -1;
+	
+	public int strRootToLeaf(TreeNode root,int cur) {
+		if(root==null)
+			return 0;
+        cur=(cur*2+root.val) % MOD;
+        return root.left == root.right ? cur : strRootToLeaf(root.left,cur) + strRootToLeaf(root.right,cur);
+    }
+	//sol1
+//	private int total = 0 ;
+//	private int MOD = 1000000007;
+//	public int sumRootToLeaf(TreeNode root) {
+//		if(root!=null)
+//			strRootToLeaf(root,0);
+//		return total;
+//    }
+//	
+//	public void strRootToLeaf(TreeNode root,int cur) {
+//		if(root!=null)
+//			cur= (cur+root.val)% MOD;
+//        if(root.left!=null)
+//        	strRootToLeaf(root.left,(cur*2)% MOD);
+//        if(root.right!=null)
+//        	strRootToLeaf(root.right,(cur*2)% MOD);
+//        if(root.left==null && root.right==null)
+//        	total= (total+cur) % MOD;
 //    }
 }
