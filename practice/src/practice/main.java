@@ -4,9 +4,9 @@ public class main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-//		Solution72 s=new Solution72();
-//		System.out.println(s.minDistance("horse", "ros"));
-//		System.out.println(s.minDistance("intention", "execution"));
+		Solution72 s=new Solution72();
+		System.out.println(s.minDistance("horse", "ros"));
+		System.out.println(s.minDistance("intention", "execution"));
 //		Solution913 s3=new Solution913();
 //		Solution202 s=new Solution202();
 //		System.out.println(s.hammingWeight(11));
